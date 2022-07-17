@@ -1,0 +1,154 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+.slogan{display: flex;
+color: rgb(167, 124, 207);
+justify-content: center;
+font-weight: bold;
+font-size: 25px;}
+
+
+.nav{
+margin: 10px;
+display: flex;;
+justify-content: right;}
+
+ul{display: flex;}
+
+.nav ul li a {color: rgb(0, 0, 0);
+background-color:rgb(144, 90, 146) ;
+margin: 1rem;
+padding: 0.5rem;
+box-shadow: 2px 2px rgb(70, 64, 64);
+border-radius: 5rem;border:  solid black;
+font-weight: bold;
+}
+
+.nav ul li{display: flex;}
+
+.logo{display:inline;}
+
+
+.encabezadoHeader{border: solid rgb(0, 0, 0);
+background-color: rgb(10, 10, 63);
+grid-area: encabezadoHeader;
+padding: 1px;
+height: 250px;}
+
+.header{display: inline-block;
+border: solid rgb(119, 66, 121)}
+
+.esconder1{display: none;}
+.esconder2{display: none;}
+
+.video{
+padding: 1rem;
+margin: 1px;
+display: inline;
+height: 25%;
+width: 15%;
+}
+
+
+  .contenedorMain {display: grid;
+    background-color: rgb(127, 119, 177);
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "imagen1 imagen2"
+                          "parrafo1 parrafo2"
+                          "parrafo3 parrafo3";
+    justify-content: center;
+    justify-items:center;
+    align-items: center;
+    height: 600px;
+    grid-column gap: 10px;}
+
+  .imagen1{grid-area: imagen1;
+   display: flex;
+   justify-content: center;
+   height: 150px;
+   margin-top:2rem;}
+
+  .imagen2{grid-area: imagen2;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-top:2rem}
+
+
+  .parrafo1{grid-area: parrafo1; 
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin: 5rem;
+    padding:2rem;
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+  .parrafo2{grid-area: parrafo2;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin: 5rem;
+    padding: 2rem
+    text-align:center;
+    font-size: 1.3rem;}
+
+  .parrafo3{grid-area: parrafo3;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: 1rem;
+    padding-top: 0.5rem;}
+
+    .piePagina{height: 50px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: left;
+    align-items:flex-end;
+    background-color: rgb(10, 10, 63);
+    border: solid rgb(119, 66, 121);
+    font-weight: bold;
+    color: whitesmoke;}
+
+    @media screen and (min-width:1200px){
+        .esconder1{
+            display: block;}
+        .esconder2{
+            display: block;}
+    
+        .contenedorMain{
+            grid-template-columns: 3fr 3fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: "imagen1 imagen2"
+                                  "parrafo1 parrafo2"
+                                  "parrafo3 parrafo3";
+        }
+    }
+
+    
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+        
+    
+
+
+
+
+
