@@ -27,6 +27,8 @@ font-weight: bold;
 
 .nav ul li{display: flex;}
 
+nav ul li a:hover{background-color: rgb(137, 31, 185);}
+
 .logo{display:inline;}
 
 
